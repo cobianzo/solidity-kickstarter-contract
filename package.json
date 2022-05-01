@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "next-routes": "^1.4.2",
+    "semantic-ui-css": "^2.4.1"
+  }
+}
