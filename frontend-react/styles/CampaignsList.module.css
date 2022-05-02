@@ -1,0 +1,18 @@
+/* .campaigns_list_wrapper {
+    display: grid;
+    gap: 5px;
+}
+
+.campaign_item {
+    border: 1px solid red;
+    padding: 10px 15px;
+    border-radius: 5px;
+} */
+
+.card_group {
+    gap: 15px;
+    width: 100%;
+}
+.card_group > div {
+    flex: 0 0 calc(50% - 30px);
+}
