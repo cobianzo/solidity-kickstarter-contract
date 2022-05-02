@@ -86,6 +86,15 @@ contract Campaign {
         request.approvalCount++;
     }
 
+    function hasAddressVoted(address voterAddress, uint256 requestIndex)
+        public
+        view
+        returns (bool)
+    {
+        Request storage request = requests[requestIndex];
+        return request.approvals[voterAddress];
+    }
+
     function finalizeRequest(uint256 index) public restricted {
         Request storage request = requests[index];
 
